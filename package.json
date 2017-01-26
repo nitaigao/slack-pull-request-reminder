@@ -1,0 +1,19 @@
+{
+  "name": "pull-requests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "co": "^4.6.0",
+    "co-foreach": "^1.1.1",
+    "github": "^8.1.1",
+    "lodash": "^4.17.4",
+    "slack": "^8.2.0",
+    "string": "^3.3.3",
+    "timeout-as-promise": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
