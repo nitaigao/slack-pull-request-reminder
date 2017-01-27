@@ -14,6 +14,7 @@
     "timeout-as-promise": "^1.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "echo 'I was started using start'",
+    "report": "node index.js"
   }
 }
