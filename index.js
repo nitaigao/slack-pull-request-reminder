@@ -54,8 +54,7 @@ function makeAttachments(prs) {
     "color": "#36a64f",
     "title": pr.title,
     "title_link": pr.url,
-    "text": `by ${pr.submitter}`, //`by <https://github.com/${pr.submitter}|${pr.submitter}>`,
-    "ts": new Date().getTime()
+    "text": `by ${pr.submitter}`, //`by <https://github.com/${pr.submitter}|${pr.submitter}>`
   }))
 }
 
